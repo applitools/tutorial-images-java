@@ -1,22 +1,17 @@
 package com.applitools.app;
 
-import com.applitools.eyes.*;
 import com.applitools.eyes.images.Eyes;
 import com.applitools.eyes.RectangleSize;
+import com.applitools.eyes.images.Target;
 
 import org.junit.jupiter.api.Test;
 import java.net.URL;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import javax.imageio.ImageIO;
+import java.nio.file.Paths;
 
 public class DemoTest {
-    public static boolean getCI() {
-		String env = System.getenv("CI");
-		return Boolean.parseBoolean(env);
-	}
-
-
     @Test
     public void test() {
         
@@ -34,18 +29,15 @@ public class DemoTest {
             BufferedImage img = ImageIO.read(new URL("https://i.ibb.co/bJgzfb3/applitools.png"));
 
             // // Visual validation.
-            eyes.checkImage(img);
+            eyes.check("Image buffer", Target.image(img));
 
             // End visual UI testing.
             eyes.close();
-
         } catch(IOException ex){
             System.out.println(ex);
         } finally {
-
             // If the test was aborted before eyes.close was called, ends the test as aborted.
             eyes.abortIfNotClosed();
-
         }
     }
 }
