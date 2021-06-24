@@ -28,7 +28,7 @@
     <dependency>
       <groupId>com.applitools</groupId>
       <artifactId>eyes-images-java3</artifactId>
-      <version>3.203.1</version>
+      <version>3.204.0</version>
     </dependency>
 
     <!-- Required for Java 10 -->
