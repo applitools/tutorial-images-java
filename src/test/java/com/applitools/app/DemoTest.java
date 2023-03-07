@@ -26,7 +26,7 @@ public class DemoTest {
         //config.setServerUrl("https://eyes.applitools.com/"); //set by default
         // Define the OS and hosting application to identify the baseline.
         config.setApiKey(System.getenv("APPLITOOLS_API_KEY"));
-        System.out.println("APPLITOOLS_API_KEY" + config.getApiKey());
+        System.out.println("APPLITOOLS_API_KEY=" + config.getApiKey());
         config.setHostOS("Windows 11");
         config.setHostApp("My app");
 
