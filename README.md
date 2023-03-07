@@ -12,3 +12,4 @@ Learn more about Applitools [Eyes](https://info.applitools.com/ucY77) and the [U
 
 More about the Images Java SDK:
 - https://applitools.com/docs/api/eyes-sdk/index-gen/class-eyes-images-java.html
+ 
