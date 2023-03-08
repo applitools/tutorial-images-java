@@ -22,9 +22,7 @@ public class DemoTest {
     private static Configuration config = new Configuration();
 
     @BeforeAll
-    public static void setUp(){
-        System.out.println("APPLITOOLS_API_KEY=" + System.getenv("APPLITOOLS_API_KEY"));
-        
+    public static void setUp(){        
         //config.setServerUrl("https://eyes.applitools.com/"); //set by default
         // Define the OS and hosting application to identify the baseline.
         config.setHostOS("Windows 11");
