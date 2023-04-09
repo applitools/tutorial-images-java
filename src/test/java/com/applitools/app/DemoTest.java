@@ -25,9 +25,8 @@ public class DemoTest {
     public static void setUp(){        
         //config.setServerUrl("https://eyes.applitools.com/"); //set by default
         // Define the OS and hosting application to identify the baseline.
-        config.setHostOS("Windows 10");
+        config.setHostOS("Windows 11");
         config.setHostApp("My maxthon browser");
-        config.setApiKey(System.getenv("APPLITOOLS_API_KEY_SECOND"));
 
 
     }
