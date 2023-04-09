@@ -26,7 +26,7 @@ public class DemoTest {
         //config.setServerUrl("https://eyes.applitools.com/"); //set by default
         // Define the OS and hosting application to identify the baseline.
         config.setHostOS("Windows 11");
-        config.setHostApp("My maxthon browser");
+        config.setHostApp("My App");
 
 
     }
