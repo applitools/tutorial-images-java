@@ -27,8 +27,8 @@
     <!-- Applitools SDK -->
     <dependency>
       <groupId>com.applitools</groupId>
-      <artifactId>eyes-images-java3</artifactId>
-      <version>3.215.0-beta</version>
+      <artifactId>eyes-images-java5</artifactId>
+      <version>5.47.0</version>
     </dependency>
 
     <!-- Required for Java 10 -->
