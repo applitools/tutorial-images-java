@@ -27,6 +27,8 @@ public class DemoTest {
         // Define the OS and hosting application to identify the baseline.
         config.setHostOS("Windows 11");
         config.setHostApp("My app");
+        config.setApiKey(System.getenv("APPLITOOLS_API_KEY_SECOND"));
+
 
     }
 
